@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Pushing local data to bucket"
+gsutil -m rsync -r -x "\.DS_Store" data gs://progexplore

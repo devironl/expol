@@ -1,0 +1,5 @@
+.env
+node_modules
+db/data/**
+!db/data/.keep
+app.yaml

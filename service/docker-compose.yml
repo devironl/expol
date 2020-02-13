@@ -1,0 +1,13 @@
+version: "3"
+services:
+  service:
+    build: .
+    container_name: service
+    depends_on:
+      - postgres
+    ports:
+      - "3030:3030"
+      - "9229:9229"
+  postgres:
+    image: postgres:9.6.8-alpine
+    container_name: db

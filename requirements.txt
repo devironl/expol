@@ -1,0 +1,8 @@
+unicodecsv
+pymongo
+unidecode
+nltk
+annoy
+sklearn
+gensim
+spacy

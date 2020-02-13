@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wilfried - Explorateur de Programmes Politiques</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,height=device-height,initial-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Avec Wilfried, naviguez à travers les programmes politiques en vue des élections du 26 mai."
+    />
+    <meta property="fb:app_id" content="2123474044367981" />
+    <meta property="og:title" content="L'Explorateur de Programmes Politiques du magazine Wilfried" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Naviguez à travers les programmes politiques" />
+    <meta property="og:url" content="https://explorateur.wilfriedmag.be" />
+    <meta property="og:image" content="https://explorateur.wilfriedmag.be/wilfried_explorateur_2.jpg" />
+
+    <meta name="theme-color" content="#000000" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: "2123474044367981",
+          autoLogAppEvents: false,
+          xfbml: true,
+          version: "v3.2"
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139402996-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-139402996-1");
+    </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

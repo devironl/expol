@@ -1,0 +1,13 @@
+# docker-compose.override.yml
+version: "3"
+services:
+  service:
+    env_file: .env
+    volumes:
+      - .:/home/app/
+      - /home/app/node_modules
+  postgres:
+    env_file: .env
+    volumes:
+      - ./db/data:/var/lib/postgresql/data/pgdata
+      - ../local_data/output_views/:/output_views

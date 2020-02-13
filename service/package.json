@@ -1,0 +1,21 @@
+{
+  "name": "service",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "G. Vankeerberghen",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "node db/migrate_latest.js",
+    "start": "node src/index.js",
+    "dev": "nodemon --legacy-watch --watch ./src/ --inspect=0.0.0.0:9229 ./src/index.js -V"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

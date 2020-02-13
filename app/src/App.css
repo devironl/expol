@@ -1,0 +1,24 @@
+.progress {
+  min-height: 200px
+}
+
+.error_loading {
+  padding: 60px;
+}
+
+.content {
+  max-width: 1300px;
+}
+
+.content__flex-item {
+  flex: 0 1 auto !important;
+}
+
+.content__information-pane__container {
+  padding-top: 40px;
+  padding-right: 8px;
+}
+
+.information_pane {
+  min-width: 300px;
+}

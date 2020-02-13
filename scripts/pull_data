@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Pulling bucket into local data folder"
+gsutil -m rsync -r gs://progexplore data
